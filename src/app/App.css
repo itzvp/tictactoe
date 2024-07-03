@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: lightgray;
+  margin: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.score {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.blue-score {
+  background: blue;
+  color: white;
+}
+
+.red-score {
+  background: red;
+  color: white;
+}
