@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.restart-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
 .status {
   margin-bottom: 10px;
   font-size: 24px;
