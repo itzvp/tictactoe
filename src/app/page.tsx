@@ -22,12 +22,13 @@ const App: React.FC = () => {
   useEffect(() => {
     localStorage.setItem("tic-tac-toe-scores", JSON.stringify(scores));
   }, [scores]);
+
+  // Restart(New Game)
   const handleRestart = () => {
     setScores({ blue: 0, red: 0 }); // Reset scores to 0
   };
   return (
     <div className="App">
-      {/* Show score of each user on top */}
       <Scoreboard scores={scores} />
       <Board setScores={setScores} scores={scores} />
       <button className="restart-button" onClick={handleRestart}>
